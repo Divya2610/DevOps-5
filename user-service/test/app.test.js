@@ -1,5 +1,5 @@
 const request = require('supertest')
-const app = require('../index')
+const {app,server} = require('../index')
 
 describe('GET /', () => {
     it('should return User Service is running', async () => {
